@@ -2,3 +2,4 @@ discord.py
 matplotlib
 apscheduler
 python-dotenv
+japanize-matplotlib
