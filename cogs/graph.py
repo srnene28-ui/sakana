@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 from database import get_all_history
 
-#plt.rcParams["font.family"] = "Noto Sans CJK JP"
+plt.rcParams["font.family"] = "Noto Sans CJK JP"
 plt.rcParams["axes.unicode_minus"] = False
 
 Y_TICKS = [2000, 2300, 2500, 2800, 3000, 3100, 3200, 3300]
