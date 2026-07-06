@@ -11,6 +11,11 @@ import matplotlib.pyplot as plt
 
 from database import get_all_history
 
+from matplotlib import font_manager
+
+font_path = "fonts/NotoSansCJKjp-Regular.otf"
+font_manager.fontManager.addfont(font_path)
+
 plt.rcParams["font.family"] = "Noto Sans CJK JP"
 plt.rcParams["axes.unicode_minus"] = False
 
